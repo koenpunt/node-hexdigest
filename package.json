@@ -1,0 +1,28 @@
+{
+  "name": "hexdigest",
+  "version": "0.0.1",
+  "description": "Function to create a digest string of a file",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:koenpunt/node-hexdigest.git"
+  },
+  "keywords": [
+    "node",
+    "hexdigest",
+    "hash",
+    "cachebuster"
+  ],
+  "author": "Koen Punt <me@koen.pt>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koenpunt/node-hexdigest/issues"
+  },
+  "homepage": "https://github.com/koenpunt/node-hexdigest"
+}
