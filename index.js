@@ -9,6 +9,9 @@ module.exports = function hexdigest(path, algorithm, done) {
     shasum.update(data);
   });
   stream.on('end', function() {
-    done(shasum.digest('hex'));
+    done(null, shasum.digest('hex'));
+  });
+  stream.on('error', function(err) {
+    done(err);
   });
 };
