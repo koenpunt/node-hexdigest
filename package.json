@@ -1,6 +1,6 @@
 {
   "name": "hexdigest",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Function to create a digest string of a file",
   "main": "index.js",
   "directories": {
